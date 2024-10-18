@@ -1,0 +1,148 @@
+body {
+	margin: 00;
+	background: #1B244A;
+
+	
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+
+	
+}
+
+button {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px; 
+	font-family: Cursed Timer ULiL;
+	font-size: 28px;
+	text-align: center;
+	border: 2px solid #9AABD8;
+	border-radius: 5px;
+	color: #9AABD8;
+	background: #1B244A;
+
+}
+
+h2 {
+	font-family: Cursed Timer UliL;
+	color: #F94F6D;
+	
+	
+}
+
+h3 {
+	font-family: Verdana;
+	color: #EEEEEE;
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 4px 4px black;
+}
+
+#home-score-el {
+	background: #080001;
+	width: 180px;
+	margin: 50px;
+	font-family: Cursed Timer ULiL;
+	font-size: 90px;
+	line-height: 126.67px;
+	text-align: center;
+	border-radius: 5px 5px 5px 5px;
+
+}
+#away-score-el {
+	background: #080001;
+	width: 180px;
+	margin: 50px;
+	font-family: Cursed Timer ULiL;
+	font-size: 90px;
+	line-height: 126.67px;
+	text-align: center;
+	border-radius: 5px 5px 5px 5px;
+
+	
+}
+
+#away-score-btn-1 {
+	font-family: Cursed Timer ULiL;
+	font-size: 18px;
+	margin-right: 5px;
+	margin-left: 60px;
+	line-height: 27px;
+	text-align: center;
+	border: 2px solid #9AABD8;
+	border-radius: 5px;
+	color: #9AABD8;
+	background: #1B244A;
+
+}
+
+#away-score-btn-2 {
+	font-family: Cursed Timer ULiL;
+	font-size: 18px;
+	margin-right: 5px;
+	line-height: 27px;
+	text-align: center;
+	border: 2px solid #9AABD8;
+	border-radius: 5px;
+	color: #9AABD8;
+	background: #1B244A;
+		
+}	
+	
+#away-score-btn-3 {	
+	font-family: Cursed Timer ULiL;
+	font-size: 18px;
+	margin-right: 5px;
+	line-height: 27px;
+	text-align: center;
+	border: 2px solid #9AABD8;
+	border-radius: 5px;
+	color: #9AABD8;
+	background: #1B244A;
+}
+
+#home-score-btn-1 {
+	font-family: Cursed Timer ULiL;
+	font-size: 18px;
+	margin-right: 5px;
+	margin-left: 60px;
+	line-height: 27px;
+	text-align: center;
+	border: 2px solid #9AABD8;
+	border-radius: 5px;
+	color: #9AABD8;
+	background: #1B244A;
+
+}
+
+#home-score-btn-2 {
+	font-family: Cursed Timer ULiL;
+	font-size: 18px;
+	margin-right: 5px;
+	line-height: 27px;
+	text-align: center;
+	border: 2px solid #9AABD8;
+	border-radius: 5px;
+	color: #9AABD8;
+	background: #1B244A;
+		
+}	
+	
+#home-score-btn-3 {	
+	font-family: Cursed Timer ULiL;
+	font-size: 18px;
+	margin-right: 5px;
+	font-weight: 400;
+	line-height: 27px;
+	text-align: center;
+	border: 2px solid #9AABD8;
+	border-radius: 5px;
+	color: #9AABD8;
+	background: #1B244A;
+	
+	
+}
