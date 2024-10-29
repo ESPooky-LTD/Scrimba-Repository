@@ -37,7 +37,7 @@ function render(leads) {
 
 onValue(referenceInDB, function(snapshot) {
 	const snapshotDoesExist = snapshot.exists
-	if (snapshotExist) {		
+	if (snapshotDoesExist) {		
 		const snapshotValues = snapshot.val()
 		const leads = Object.values(snapshotValues)
 		render(leads)
