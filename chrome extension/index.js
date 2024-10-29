@@ -19,14 +19,7 @@ const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 const deleteBtn = document.getElementById("delete-btn")
 
-onValue(referenceInDB, function(snapshot) {
-	const snapshotDoesExist = snapshot.exists
-	if (snapshotExist) {		
-		const snapshotValues = snapshot.val()
-		const leads = Object.values(snapshotValues)
-		render(leads)
-	}
-})
+
 
 function render(leads) {
     let listItems = ""
@@ -41,6 +34,15 @@ function render(leads) {
     }
     ulEl.innerHTML = listItems
 }
+
+onValue(referenceInDB, function(snapshot) {
+	const snapshotDoesExist = snapshot.exists
+	if (snapshotExist) {		
+		const snapshotValues = snapshot.val()
+		const leads = Object.values(snapshotValues)
+		render(leads)
+	}
+})
 
 deleteBtn.addEventListener("dblclick", function() {
     remove(referenceInDB)
