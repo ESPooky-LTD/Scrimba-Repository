@@ -21,8 +21,11 @@ let passwordLength = 15
 	}
 
 const passwordEl=generatePassword()
+const password2El=generatePassword()
+console.log("Password: ", password2El)
 console.log("Password: ", passwordEl)
 passwordrnd1El.textContent=passwordEl
+passwordrnd2El.textContent=password2El
 })
 
 
