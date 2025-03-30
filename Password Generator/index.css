@@ -10,18 +10,18 @@
        text-indent: 40px;
        height: 100%;
        width: 100%;
-       font-family: karla ExtraBold;    
+       font-family: karla ExtraBold;
+	padding-bottom: 50px;    
 }
 
 .container2 {
-   display: flex;
-   justify-content: flex-start;
-   
-	
-	
+	display: flex;
+      
 }
 
-
+.output2 {
+	width: 100%;
+}
 
 
 #generate {
@@ -76,7 +76,7 @@ hr {
 
 
 h4 {
-	justify-content: space-between;
+    justify-content: space-evenly;
     color:  #0EBA80;
     width: 40%;	
 }
