@@ -1,0 +1,62 @@
+body {
+    font-family: Tagesschrift;
+    font-size: 2em;
+    margin: 0px;
+    padding: 0px;
+    background-image: URL('/img/C:\Users\parc2\Documents\GitHub\Scrimba-Repository\War\poker-table.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+#new-deck {
+    font-family: 'Tagesschrift';
+    width: 100%;
+    background-color: black;
+    color: red;
+        
+}
+
+#drawBtnContainer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+    
+    
+} 
+#draw-cards {
+    font-family: Tagesschrift;
+    background-color: black;
+    color: red;
+    width: 100%;
+    
+    
+}
+
+
+
+#cards {
+    align-items: center;
+    margin-top: 25%;
+    display: inline-flex;
+}
+
+
+#card1 {
+    height: 35%;
+    width: 35%;
+    padding: 30px;
+}
+
+#card2 {
+    height: 35%;
+    width: 35%;
+    padding: 30px;   
+}
+
+
+label {
+    color: grey;
+    display: flex;
+    justify-content: center;
+}
